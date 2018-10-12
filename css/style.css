@@ -1,0 +1,216 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+	height: 80px;
+}
+.dropdown{
+	width: 100px;
+	height: 100%;
+	font-weight: bold;
+	font-size: 20px;
+}
+.dropdown a{
+	padding: 0.5rem;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #0072BC;
+}
+.dropdown-menu a:hover{
+	background-color: #0072BC;
+	color: white;
+}
+#account a, #cart a{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white !important;
+	background-color: #0072BC !important;
+	border-radius: 10px;
+}
+#user_dropdown{
+	width: 400px !important;
+	height: unset !important;
+}
+.user_menu{
+	background-color: #0072bc;
+	height: 50px;
+}
+.user_signin{
+	background-color: white;
+    
+	
+    width: 40%;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+}
+.user_signin p, .user_signup p{
+	margin: 0.9rem !important;
+}
+.user_signup{
+	display: inline-block;
+	width: 40%;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.login_container{
+	margin: 40px;
+}
+.login_container label{
+	font-size: 15px;
+	margin-bottom: 0px;
+}
+.login_button{
+	height: 50px;
+	width: 50%;
+	background-color: #0072bc; 
+	border: none;
+	padding: 0px;
+}
+.login_bottom{
+	margin-top: 30px;
+}
+.login_bottom label{
+	padding-left: 30px;
+}
+.container-margin{
+   width: auto;
+}
+body {
+	background-color: #eeeeee;
+}
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #A0C5E8;
+  padding: 10px 0;
+}
+.footer_container{
+	margin-top: 40px;
+}
+.footer_container p{
+	background-color: #0072bc;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-top: 0.9rem;
+	padding-bottom: 0.9rem;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*PC Page*/
+.title_section{
+	margin-top: 80px;
+	padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+body{
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
+}
+
+.navbar-laravel
+{
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+
+.navbar-brand , .nav-link, .my-form, .login-form
+{
+    font-family: Raleway, sans-serif;
+}
+
+.my-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+
+.col_product {
+	padding-right: 0;
+    padding-left: 0;
+	border:  2px solid #B7B7B7;
+}
+
+
+
+.search {
+	height: 48px;
+}
+
+.container_subpage {
+	padding-right: 0;
+    padding-left: 0;
+	margin-top: 80px;
+	background: white;
+}
+
+.title {
+  display: block;
+  width: 150px;
+  font-size: 15px;
+height:50px;
+}
+
+.register {
+	display: inline;
+}
+
+.product_detail_image {
+	height: 400px;
+	width: auto;
+	margin-left: 20px;
+}
+
+.product_title {
+	font-size: 50px;
+	font: bold;
+	display: inline-block;
+}
+
+.col_product_detail {
+	padding-right: 0;
+    padding-left: 0;
+
+}
